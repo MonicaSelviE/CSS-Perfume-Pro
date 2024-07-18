@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left:70% ;
+    color: gray;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+}
+
+.search
+{
+input{
+    width: 60%;
+    padding: 15px;
+}
+text-align: center;
+padding: 70px;
+}
+
+.product
+{
+    .perfume{
+        border-color: black;
+        border-style: solid;
+        display: inline-block;
+        width: 250px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    text-align: center;
+
+    .perfume:hover{
+        color: white;
+        background-color: black;
+    }
+    
+}
+
+.about{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom:20px ;
+
+    p{
+        padding: 30px;
+        text-align: justify;
+    } 
+}
+
+.contact{
+    text-align: center;
+    margin: top 10px; 
+    color: white;
+
+    p{
+        margin-top: 40px;
+        color: gray;
+    }
+    background-color: black;
+}
+
+
+
+
